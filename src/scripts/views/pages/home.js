@@ -5,9 +5,8 @@ const Home = {
   async render() {
     return `
       <picture>
-                <source media="(max-width: 800px)" srcset="./images/hero-image_2-small.jpg" type="image/jpeg">
-                <source media="(max-width: 800px)" srcset="./images/hero-image_2-small.jpg" type="image/jpeg">
-                <img src="./images/hero-image_2-large.jpg" alt="pembuka web">
+                <source media="(max-width: 800px)" srcset="./public/images/hero-image_2-small.jpg" type="image/jpeg">
+                <img src="./public/images/hero-image_2-large.jpg" alt="pembuka web">
               </picture>
       <div class="content">
         <h2 class="content__heading">Eating House</h2>
