@@ -6,7 +6,7 @@ const Home = {
     return `
     <picture>
         <source media="(max-width: 600px)" srcset="./images/hero-image_2-small.jpg">
-        <img class="jumbotron-img" src="./images/hero-image_2-large.jpg" alt="pembuka web">
+        <img src="./images/hero-image_2-large.jpg" alt="pembuka web">
       </picture>
       <div class="content">
         <h2 class="content__heading">Eating House</h2>
